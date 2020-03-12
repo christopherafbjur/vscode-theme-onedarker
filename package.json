@@ -18,5 +18,9 @@
         "path": "./themes/atom_one_darker_high_contrast.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christopherafbjur/vscode-theme-onedarker.git"
   }
 }
