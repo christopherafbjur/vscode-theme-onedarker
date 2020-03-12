@@ -1,0 +1,21 @@
+{
+    "name": "atom-one-darker",
+    "displayName": "Atom One Darker",
+    "description": "Inspired by Atom One Dark (https://atom.io/themes/one-dark-ui)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Atom One Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Atom One Darker-color-theme.json"
+            }
+        ]
+    }
+}
