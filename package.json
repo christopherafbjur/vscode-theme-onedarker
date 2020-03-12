@@ -2,7 +2,7 @@
   "name": "vscode-theme-onedarker",
   "displayName": "Atom One Darker Theme",
   "description": "Inspired by Atom One Dark but with a higher contrast.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "christopherafbjur",
   "engines": {
     "vscode": "^1.43.0"
