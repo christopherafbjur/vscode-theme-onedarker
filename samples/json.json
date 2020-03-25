@@ -1,0 +1,9 @@
+{
+  "name": "vscode-theme-onedarker",
+  "contrast": 100,
+  "darker": true,
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": ["Themes"]
+}
