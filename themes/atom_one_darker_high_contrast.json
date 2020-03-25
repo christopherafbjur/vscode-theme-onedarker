@@ -79,7 +79,7 @@
       "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
     },
     {
-      "name": "Other: Meta method declaratio",
+      "name": "Other: Meta method declaration",
       "scope": ["meta.method.declaration.js storage.type.js"],
       "settings": { "fontStyle": "normal", "foreground": "#3DB2FF" }
     },
@@ -160,10 +160,16 @@
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
-      "name": "Other: Keyword operator comparison / assignment",
+      "name": "Other: Keyword operators",
       "scope": [
         "keyword.operator.comparison.js",
-        "keyword.operator.assignment.js"
+        "keyword.operator.assignment.js",
+        "keyword.operator.relational.js",
+        "keyword.operator.increment.js",
+        "keyword.operator.decrement.js",
+        "keyword.operator.assignment.compound.js",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.ternary.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
     },
