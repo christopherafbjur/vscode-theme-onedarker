@@ -1,5 +1,5 @@
 {
-  "name": "Atom One Darker",
+  "name": "Atom One Darker Contrast",
   "type": "dark",
   "colors": {
     "sideBar.background": "#21252b",
@@ -234,6 +234,36 @@
       "name": "Other: Spread operators",
       "scope": ["keyword.operator.spread.js"],
       "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: JSON punctuation",
+      "scope": [
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "String: JSON property name and punctuation",
+      "scope": [
+        "support.type.property-name.json punctuation",
+        "support.type.property-name.json"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "String: JSON string and punctuation",
+      "scope": ["meta.structure.dictionary.value.json"],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "String: JSON string and punctuation",
+      "scope": ["constant.numeric.json", "constant.language.json"],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
     }
   ]
 }
