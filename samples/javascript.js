@@ -1,3 +1,16 @@
+function oneDarkerTheme({clr, contrast}){
+  const color = prepareContrast(clr);
+  const contrastified = [];
+
+  for (var i = 0; i < contrast.length; i++){
+    contrastified.push(addContrast(color));
+  }
+
+  return {
+    darker: contrastified
+  }
+}
+
 const json = {
 	"str": "top",
 	"num": 1337,
