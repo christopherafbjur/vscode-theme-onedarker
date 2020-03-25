@@ -1,3 +1,5 @@
+
+//Contrastify theme
 function oneDarkerTheme({clr, contrast}){
   const color = prepareContrast(clr);
   const contrastified = [];
@@ -11,6 +13,8 @@ function oneDarkerTheme({clr, contrast}){
   }
 }
 oneDarkerTheme('dark', 'darker');
+
+
 
 
 const json = {
