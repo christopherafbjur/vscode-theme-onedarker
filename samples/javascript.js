@@ -1,4 +1,5 @@
 
+
 //Contrastify theme
 function oneDarkerTheme({clr, contrast}){
   const color = prepareContrast(clr);
@@ -15,12 +16,20 @@ function oneDarkerTheme({clr, contrast}){
 oneDarkerTheme('dark', 'darker');
 
 
-
-
 const json = {
 	"str": "top",
 	"num": 1337,
 	"bool": true,
+}
+
+const colors = {aaa: {bbb: {ccc: 'ccc'}}}
+const theme = {
+  name: "Theme",
+  type: "darker",
+  colors: {
+    "testa": colors.aaa.bbb.ccc,
+    "testb": colors.aaa.bbb
+  }
 }
 
 const s = {
