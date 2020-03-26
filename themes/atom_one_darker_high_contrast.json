@@ -26,8 +26,11 @@
       "settings": { "fontStyle": "normal", "foreground": "#95D567" }
     },
     {
-      "name": "Other: Object Literal Key",
-      "scope": ["meta.object-literal.key.js"],
+      "name": "Other: Object Literal Key / Other Object Property",
+      "scope": [
+        "meta.object-literal.key.js",
+        "variable.other.object.property.js"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {
@@ -36,7 +39,7 @@
         "meta.definition.function.js entity.name.function.js",
         "meta.function-call.js entity.name.function.js"
       ],
-      "settings": { "fontStyle": "normal", "foreground": "#3DB2FF" }
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
     },
     {
       "name": "Other: Object literal method",
@@ -76,12 +79,12 @@
     {
       "name": "Other: Support class",
       "scope": ["support.class.js"],
-      "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
       "name": "Other: Meta method declaration",
       "scope": ["meta.method.declaration.js storage.type.js"],
-      "settings": { "fontStyle": "normal", "foreground": "#3DB2FF" }
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
     },
     {
       "name": "Other: Support variables / console",
@@ -91,7 +94,7 @@
     {
       "name": "Other: Support function / console",
       "scope": ["support.function.console.js"],
-      "settings": { "fontStyle": "normal", "foreground": "#3DB2FF" }
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
     },
     {
       "name": "Other: Puncuation definition parameters/brackets/brace",
@@ -152,7 +155,7 @@
     {
       "name": "Other: Promise",
       "scope": ["entity.name.type.js"],
-      "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
       "name": "Other: Keyword operators",
@@ -190,7 +193,7 @@
     {
       "name": "Other: Class name",
       "scope": ["entity.name.type.class.js"],
-      "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
       "name": "Other: Template string",
@@ -200,7 +203,7 @@
     {
       "name": "Other: Template expression",
       "scope": ["punctuation.definition.template-expression"],
-      "settings": { "fontStyle": "normal", "foreground": "#BE5046" }
+      "settings": { "fontStyle": "normal", "foreground": "#DC3728" }
     },
     {
       "name": "Other: Template expression object",
@@ -218,14 +221,15 @@
         "variable.other.readwrite.alias.js",
         "variable.other.object.js"
       ],
-      "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
-      "name": "Other: Function call object / meta block object / array litteral object",
+      "name": "Other: Other objects",
       "scope": [
         "meta.block.js variable.other.object.js",
         "meta.function-call.js variable.other.object.js",
-        "meta.array.literal.js variable.other.object.js"
+        "meta.array.literal.js variable.other.object.js",
+        "meta.object.member.js variable.other.object.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
@@ -234,7 +238,7 @@
       "scope": [
         "meta.object.member.js meta.array.literal.js variable.other.readwrite.js"
       ],
-      "settings": { "fontStyle": "normal", "foreground": "#FFBC3D" }
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
       "name": "Other: Spread operators",
