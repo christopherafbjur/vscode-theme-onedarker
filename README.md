@@ -6,9 +6,11 @@
 
 > The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
 
-If you find any bugs or have any requests please file an issue.
+## Support
 
 I will add more languages frequently. Currently supported languages:
 
-:white_check_mark: Javascript
-:white_check_mark: JSON
+- :white_check_mark: Javascript
+- :white_check_mark: JSON
+
+If you find any bugs or have any requests please file an issue.
