@@ -1,6 +1,3 @@
-
-
-//Contrastify theme
 function oneDarkerTheme({clr, contrast}){
   const color = prepareContrast(clr);
   const contrastified = [];
@@ -61,6 +58,13 @@ if (true) {
 
 } else {
 
+}
+
+
+let test = null;
+
+if(test && test == 0 || test === 'test'){
+  return true;
 }
 
 
