@@ -54,8 +54,8 @@
     {
       "name": "String: Punctuation",
       "scope": [
-        "string.quoted.double punctuation",
-        "string.quoted.single punctuation"
+        "string.quoted.double.js punctuation",
+        "string.quoted.single.js punctuation"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#95D567" }
     },
@@ -126,11 +126,11 @@
     {
       "name": "Other: Regexp punctuation and bracket expression",
       "scope": [
-        "punctuation",
+        "string.regexp.js punctuation",
         "constant.other.character-class.range.regexp",
         "constant.other.character-class.set.regexp"
       ],
-      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {
       "name": "Other: Regexp control anchors",
@@ -172,7 +172,8 @@
         "keyword.operator.decrement.js",
         "keyword.operator.assignment.compound.js",
         "keyword.operator.arithmetic.js",
-        "keyword.operator.ternary.js"
+        "keyword.operator.ternary.js",
+        "keyword.operator.logical.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
     },
@@ -274,6 +275,85 @@
       "name": "String: JSON string and punctuation",
       "scope": ["constant.numeric.json", "constant.language.json"],
       "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: HTML Doctype tag and text derivatives",
+      "scope": [
+        "meta.tag.metadata.doctype.html entity.name.tag.html",
+        "meta.tag.metadata.doctype.html entity.other.attribute-name.html",
+        "text.html.derivative"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "Other: HTML tags",
+      "scope": ["entity.name.tag.html"],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "Other: HTML attribute names",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: HTML strings",
+      "scope": ["string.quoted.double.html"],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: Meta attribute id",
+      "scope": ["meta.attribute.id.html entity.other.attribute-name.html"],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "Other: CSS class selector and property values",
+      "scope": [
+        "meta.selector.css entity.other.attribute-name.class.css",
+        "meta.property-value.css support.constant.color.w3c-standard-color-name.css",
+        "meta.property-value.css constant.numeric.css",
+        "meta.property-value.css support.constant.font-name.css"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: CSS id selector",
+      "scope": ["meta.selector.css entity.other.attribute-name.id.css"],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "Other: Css Support function property value",
+      "scope": [
+        "meta.property-value.css support.function.transform.css",
+        "meta.property-value.css support.function.url.css"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Css brackets",
+      "scope": ["meta.embedded.block.html"],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "Other: Css round brackets and separators",
+      "scope": [
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css",
+        "punctuation.separator.list.comma.css"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#595F6B" }
+    },
+    {
+      "name": "Other: Css string",
+      "scope": ["string.quoted.double.css", "string.quoted.single.css"],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Css string punctuation",
+      "scope": [
+        "string.quoted.double.css punctuation",
+        "string.quoted.single.css punctuation"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
     }
   ]
 }
