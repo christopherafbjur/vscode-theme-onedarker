@@ -17,7 +17,11 @@
   "tokenColors": [
     {
       "name": "Other: Variables",
-      "scope": ["variable.other.constant.js", "variable.other.readwrite.js"],
+      "scope": [
+        "variable.other.constant.js",
+        "variable.other.readwrite.js",
+        "meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
     {
@@ -29,7 +33,9 @@
       "name": "Other: Object Literal Key / Other Object Property",
       "scope": [
         "meta.object-literal.key.js",
-        "variable.other.object.property.js"
+        "variable.other.object.property.js",
+        "meta.definition.variable.js variable.other.readwrite.js",
+        "meta.object-binding-pattern-variable.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
@@ -37,6 +43,7 @@
       "name": "Other:  Function definition",
       "scope": [
         "meta.definition.function.js entity.name.function.js",
+        "meta.definition.method.js entity.name.function.js",
         "meta.function-call.js entity.name.function.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
@@ -119,9 +126,19 @@
       "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
     },
     {
+      "name": "Other: Class/Component attributes",
+      "scope": ["entity.other.attribute-name.js"],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
       "name": "Other: Support functions",
       "scope": ["support.function.js"],
       "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Support functions",
+      "scope": ["support.function.js"],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
     },
     {
       "name": "Other: Regexp punctuation and bracket expression",
@@ -143,13 +160,20 @@
       "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
     },
     {
-      "name": "Other: Function storage",
-      "scope": ["storage.type"],
+      "name": "Other: Function storage / Let/Const/Var keyword",
+      "scope": [
+        "storage.type",
+        "meta.method.declaration.js meta.var.expr.js storage.type.js"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
       "name": "Other: Keyword controls",
-      "scope": ["keyword.control"],
+      "scope": [
+        "keyword.control",
+        "storage.modifier.js",
+        "storage.modifier.async.js"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
@@ -193,7 +217,11 @@
     },
     {
       "name": "Other: Class name",
-      "scope": ["entity.name.type.class.js"],
+      "scope": [
+        "entity.name.type.class.js",
+        "support.class.component.js",
+        "entity.other.inherited-class.js"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
@@ -203,7 +231,11 @@
     },
     {
       "name": "Other: Template expression",
-      "scope": ["punctuation.definition.template-expression"],
+      "scope": [
+        "punctuation.definition.template-expression",
+        "meta.tag.attributes.js punctuation",
+        "meta.jsx.children.js punctuation"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#DC3728" }
     },
     {
@@ -217,10 +249,11 @@
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {
-      "name": "Other: Imports",
+      "name": "Other: Imports/Exports",
       "scope": [
         "variable.other.readwrite.alias.js",
-        "variable.other.object.js"
+        "variable.other.object.js",
+        "meta.export.default.js variable.other.readwrite.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
@@ -228,11 +261,20 @@
       "name": "Other: Other objects",
       "scope": [
         "meta.block.js variable.other.object.js",
-        "meta.function-call.js variable.other.object.js",
         "meta.array.literal.js variable.other.object.js",
-        "meta.object.member.js variable.other.object.js"
+        "meta.object.member.js variable.other.object.js",
+        "meta.embedded.expression.js variable.other.readwrite.js",
+        "meta.arrow.js meta.var.expr.js variable.other.readwrite.js"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "Other: Other objects",
+      "scope": [
+        "meta.var.expr.js meta.function-call.js variable.other.object.js",
+        "meta.var.expr.js variable.other.readwrite.js"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
       "name": "Other: Array litteral readwrite",
@@ -354,6 +396,34 @@
         "string.quoted.single.css punctuation"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: JSX tags",
+      "scope": ["entity.name.tag.js.jsx"],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "Other: JSX attribute names",
+      "scope": ["entity.other.attribute-name.js.jsx"],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: JSX strings",
+      "scope": ["string.quoted.double.js.jsx"],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: JSX Meta attribute id",
+      "scope": ["meta.attribute.id.js.jsx entity.other.attribute-name.js.jsx"],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "Other: JSX Meta tag",
+      "scope": [
+        "meta.method.declaration.js punctuation.definition",
+        "meta.tag.js punctuation.definition"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
     }
   ]
 }

@@ -12,7 +12,6 @@ function oneDarkerTheme({clr, contrast}){
 }
 oneDarkerTheme('dark', 'darker');
 
-
 const json = {
 	"str": "top",
 	"num": 1337,
@@ -245,3 +244,65 @@ export default {
     ...Testing,
   ]
 };
+
+
+//REACT
+import React, { Component } from "react";
+import { TextInput, StyleSheet, View } from "react-native";
+
+const Input = ({ placeholder }) => {
+  const [value, onChangeText] = React.useState(placeholder);
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.icon} />
+      {user && selectedConversation && (
+        <MessagesInput
+          newConversationCreated={this.newConversationCreated}
+          conversation={selectedConversation}
+          currentUser={user}
+          test="str"
+          test2={100}
+        />
+      )}
+      <TextInput
+        style={styles.input}
+        onChangeText={text => onChangeText(text)}
+        value={value}
+      />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    shadowOffset: { width: 0, height: 1 }
+  },
+  icon: {
+    height: 50,
+    backgroundColor: "#FFD540"
+  },
+  input: {
+    fontSize: 20
+  }
+});
+
+class Messages extends Component {
+getTempConversation = async queryStringParams => {
+  const user = getCurrentUser();
+  let { to: toUserId } = queryStringParams,
+    { data: recipent } = await getUserFromId(toUserId);
+
+  return {
+    conversation_id: "provisoric",
+    recipent: recipent.name
+  };
+};
+}
+
+Input.defaultProps = {
+  placeholder: "Placeholder text"
+};
+
+module.exports = {}
+export default Input;
