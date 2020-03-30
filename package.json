@@ -2,7 +2,7 @@
   "name": "vscode-theme-onedarker",
   "displayName": "Atom One Darker Theme",
   "description": "Inspired by Atom One Dark but with a higher contrast.",
-  "icon": "./logo.png",
+  "icon": "/logo.png",
   "version": "0.5.0",
   "publisher": "christopherafbjur",
   "engines": {
