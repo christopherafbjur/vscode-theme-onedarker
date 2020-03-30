@@ -11,6 +11,20 @@
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#14161A",
+    "theme": "dark"
+  },
+  "keywords": [
+    "atom",
+    "theme",
+    "dark",
+    "darker",
+    "contrast",
+    "high contrast",
+    "one dark",
+    "one darker"
+  ],
   "contributes": {
     "themes": [
       {

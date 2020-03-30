@@ -296,7 +296,8 @@
         "punctuation.definition.array.begin.json",
         "punctuation.definition.array.end.json",
         "punctuation.separator.dictionary.key-value.json",
-        "punctuation.separator.dictionary.pair.json"
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
