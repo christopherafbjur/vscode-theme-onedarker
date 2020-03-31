@@ -5,5 +5,19 @@
   "engines": {
     "vscode": "^1.43.0"
   },
-  "categories": ["Themes"]
+  "categories": ["Themes"],
+  "keywords": [
+    "atom",
+    "theme",
+    "dark",
+    "darker",
+    "contrast",
+    "high contrast",
+    "one dark",
+    "one darker"
+  ],
+  "test": {
+    "a": 1,
+    "b": 2
+  }
 }

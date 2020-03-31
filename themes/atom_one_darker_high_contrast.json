@@ -425,6 +425,135 @@
         "meta.tag.js punctuation.definition"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Variables / Parameters",
+      "scope": [
+        "constant.language.python",
+        "constant.numeric.dec.python",
+        "variable.parameter.function.language.python",
+        "variable.parameter.function-call.python"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: Storage",
+      "scope": ["storage.modifier.declaration.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
+    },
+    {
+      "name": "String: Strings",
+      "scope": [
+        "string.quoted.single.python",
+        "string.quoted.multi.python",
+        "storage.type.string.python",
+        "string.quoted.docstring.single.python"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "String: Regex",
+      "scope": ["string.regexp", "keyword.operator.quantifier.regexp"],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: Template string brackets",
+      "scope": ["constant.character.format.placeholder.other.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#DC3728" }
+    },
+    {
+      "name": "Other: Function call / Function decorator",
+      "scope": [
+        "meta.function-call.generic.python",
+        "entity.name.function.decorator.python",
+        "meta.function.decorator.python",
+        "support.function.magic.python",
+        "entity.name.function.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "Other: Built in function",
+      "scope": ["meta.function-call.python support.function.builtin.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Built in function",
+      "scope": ["support.function.builtin.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
+    },
+    {
+      "name": "Other: Member access",
+      "scope": ["meta.member.access.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "Other: Function calls / Separators",
+      "scope": [
+        "meta.function-call.python",
+        "punctuation.separator.period.python"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "Other: Keywords",
+      "scope": ["support.type.exception.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "Other: Class name",
+      "scope": ["entity.name.type.class.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
+    },
+    {
+      "name": "Other: Heading / List",
+      "scope": [
+        "markup.heading.markdown",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "Other: Bold",
+      "scope": ["markup.bold.markdown"],
+      "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
+    },
+    {
+      "name": "Other: Italic",
+      "scope": ["markup.italic.markdown"],
+      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
+    },
+    {
+      "name": "String: Link title",
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "String: Link",
+      "scope": [
+        "meta.link.inline.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": { "fontStyle": "normal", "foreground": "#3BCBDD" }
+    },
+    {
+      "name": "String: Link",
+      "scope": ["markup.inline.raw.string.markdown"],
+      "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: Block quote",
+      "scope": ["markup.quote.markdown"],
+      "settings": { "fontStyle": "normal", "foreground": "#40454E" }
+    },
+    {
+      "name": "Other: Checklist",
+      "scope": ["markup.list.unnumbered.markdown"],
+      "settings": { "fontStyle": "normal", "foreground": "#9DA5B4" }
     }
   ]
 }
