@@ -8,14 +8,4 @@
 
 ## Support
 
-I will add more languages frequently. Currently supported languages:
-
-- Javascript
-- JSX
-- JSON
-- HTML
-- CSS
-- Markdown
-- Python
-
 If you find any bugs or have any requests please file an issue.

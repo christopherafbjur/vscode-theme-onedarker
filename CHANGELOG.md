@@ -6,6 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.0] - 2020-03-31
 
+- Added main colors shared between languages to avoid adding support per-language-basis.
+- Adjusted language special colors for all tested languages.
+
+## [1.0.0] - 2020-03-31
+
 - Added support for Markdown
 - Added support for Python
 - Added changelog
