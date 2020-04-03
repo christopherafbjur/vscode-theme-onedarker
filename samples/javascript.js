@@ -12,6 +12,8 @@ function oneDarkerTheme({clr, contrast}){
 }
 oneDarkerTheme('dark', 'darker');
 
+var talo;
+let tabi;
 const json = {
 	"str": "top",
 	"num": 1337,
@@ -28,6 +30,8 @@ const theme = {
   }
 }
 
+var talo;
+let tabi;
 const s = {
   methodName: function (attribute) {
 
@@ -120,12 +124,13 @@ console.log();
 console.dir();
 console.warn();
 console.error();
+test.say();
 
 
 
 console.log(require('test').inspect( { depth: null }));
 
-/^[a-z0-9_-]{3,16}$/
+/^[a-z0-9_-](testing){3,16}$/
 
 new Promise(function(resolve, reject) {
 
@@ -190,7 +195,7 @@ while (true) {
 
 
 
-
+const nocando = true;
 const module = require('module');
 
 
@@ -198,7 +203,11 @@ const module = require('module');
 class ClassName {
 	constructor(asd) {
 
-	}
+  }
+  
+  myTest(){
+    //Log
+  }
 }
 
 
@@ -241,6 +250,7 @@ export default {
   ],
   fields: [
     test.Test,
+    tata,
     ...Testing,
   ]
 };

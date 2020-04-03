@@ -13,7 +13,7 @@ var_f = """
 Hello I am a
 multiline string
 """
-var_g = f'I am a {var_b} quoted template string'
+var_g = f'I am a {var_b.c} quoted template string'
 var_h = f"I am a {var_b} quoted template string"
 
 list = [1, 2, 3, 'Hi', "Hi", True, False, None]
