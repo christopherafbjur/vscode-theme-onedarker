@@ -4,7 +4,12 @@ All notable changes to the "atom-one-darker" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.0.0] - 2020-03-31
+## [2.0.2] - 2020-04-03
+
+- Added haml sample
+- Added haml bugfix
+
+## [2.0.0] - 2020-04-03
 
 - Added main colors shared between languages to avoid adding support per-language-basis.
 - Adjusted language special colors for all tested languages.
