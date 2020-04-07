@@ -11,7 +11,7 @@
     "editor.foreground": "#9DA5B4",
     "editorLineNumber.foreground": "#636d83",
     "editorCursor.foreground": "#528bff",
-    "editor.selectionBackground": "#3e4451",
+    "editor.selectionBackground": "#2B3039",
     "editor.lineHighlightBackground": "#99bbff0a"
   },
   "tokenColors": [

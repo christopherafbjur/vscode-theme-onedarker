@@ -4,6 +4,10 @@ All notable changes to the "atom-one-darker" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.4] - 2020-04-07
+
+- Updated selection color which was creating conflicts with comment colors
+
 ## [2.0.3] - 2020-04-07
 
 - Added custom css property style
