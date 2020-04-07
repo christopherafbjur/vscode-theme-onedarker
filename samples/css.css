@@ -8,3 +8,20 @@
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("https://image-url.test");
 }
+
+.logo-pics > a > img {
+  width: auto;
+}
+div#card {
+  width: 34vh;
+  height: 26vh;
+}
+div.PP {
+  position: absolute;
+  width: 68%;
+  margin-left: 15%;
+  margin-top: 13%;
+}
+div.PP img {
+  opacity: 1;
+}

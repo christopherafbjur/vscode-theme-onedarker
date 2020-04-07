@@ -498,6 +498,11 @@
         "string.quoted.single.css punctuation"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#95D567" }
+    },
+    {
+      "name": "Other: CUSTOM* property value (Not part of real Atom One Dark but looks better)",
+      "scope": ["source.css support.constant.property-value"],
+      "settings": { "fontStyle": "italic", "foreground": "#DC3728" }
     }
   ]
 }

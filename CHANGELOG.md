@@ -4,6 +4,10 @@ All notable changes to the "atom-one-darker" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.3] - 2020-04-07
+
+- Added custom css property style
+
 ## [2.0.2] - 2020-04-03
 
 - Added haml sample
