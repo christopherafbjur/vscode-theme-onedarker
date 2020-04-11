@@ -22,12 +22,7 @@
     },
     {
       "name": "Other: Keywords",
-      "scope": ["keyword.control"],
-      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
-    },
-    {
-      "name": "Other: Keyword operator",
-      "scope": ["keyword.operator"],
+      "scope": ["keyword"],
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {

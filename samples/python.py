@@ -83,6 +83,8 @@ else:
 
 #I am a comment
 
+# XXX, BUG, TODO, FIXME, NOTE
+
 success = False
 for letter in 'Python':
    print('Current Letter :', letter)
