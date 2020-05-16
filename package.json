@@ -3,7 +3,7 @@
   "displayName": "Atom One Darker Theme",
   "description": "Inspired by Atom One Dark but with a higher contrast.",
   "icon": "logo.png",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "publisher": "christopherafbjur",
   "engines": {
     "vscode": "^1.43.0"
