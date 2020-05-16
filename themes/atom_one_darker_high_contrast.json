@@ -165,7 +165,11 @@
       "scope": [
         "source.js punctuation.definition.block",
         "source.js punctuation.separator.comma",
-        "meta.parameters.js punctuation.separator"
+        "meta.parameters.js punctuation.separator",
+        "source.js punctuation.accessor",
+        "source.js punctuation.definition.binding-pattern",
+        "source.js meta.brace.round",
+        "source.js punctuation.terminator.statement"
       ],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
@@ -180,6 +184,11 @@
         "meta.array.literal.js variable.other.object",
         "meta.array.literal.js variable.other.readwrite"
       ],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "SPECIAL: This keyword",
+      "scope": ["source.js variable.language.this"],
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
     {
@@ -204,7 +213,10 @@
     },
     {
       "name": "SPECIAL: JS other property",
-      "scope": ["source.js variable.other.property"],
+      "scope": [
+        "source.js variable.other.property",
+        "source.js variable.other.object.property"
+      ],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {

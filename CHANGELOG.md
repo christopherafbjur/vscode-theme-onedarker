@@ -4,6 +4,10 @@ All notable changes to the "atom-one-darker" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.5] - 2020-05-16
+
+- Fixed bugs related to Javascript object litteral colors
+
 ## [2.0.5] - 2020-04-11
 
 - Fixed bugs related to keyword colors
