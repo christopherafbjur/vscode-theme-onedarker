@@ -1,3 +1,5 @@
+import Proptypes from 'fake';
+
 function oneDarkerTheme({clr, contrast}){
   const color = prepareContrast(clr);
   const contrastified = [];
@@ -320,3 +322,62 @@ Input.defaultProps = {
 
 module.exports = {}
 export default Input;
+
+
+var test = {
+  title: "Type",
+  name: "event_type",
+  type: "array",
+  of: [{ type: "string" }],
+  options: {
+    list: [
+      { title: "Notification", value: eventTypes.notification_event.key },
+      { title: "Calendar", value: eventTypes.calendar_event.key },
+      { title: "Intro", value: eventTypes.intro_event.key },
+      { title: "Visual", value: eventTypes.visual_event.key },
+    ],
+  },
+  /* fieldset: "defaultEventData", */
+  validation: (Rule) => Rule.required(),
+}
+
+var test2 = {
+  fields: [
+    {
+      validation: (Rule) =>
+        Rule.custom((value, schema) => {
+          const { event } = thing;
+          const required = [event.key];
+          return validation.test(value, schema, {
+            types: required,
+          });
+        }).greaterThan(0),
+    },
+    {
+      options: {
+        list: generalFields.timingList(),
+        layout: "dropdown",
+      },
+      validation: (Rule) =>
+        Rule.custom((value, schema) => {
+          const { event } = thing;
+          const required = [event.key];
+
+          return validation.test(value, schema, {
+            types: required,
+            definition: "unit",
+          });
+        }),
+    }
+  ]
+}
+
+const InputProptypes = {
+  id: proptypes.oneOf(['text', 'email']).isRequired,
+  type: Proptypes.oneOf(['text', 'email']).isRequired,
+  placeholder: Proptypes.string.isRequired
+}
+
+export const InputStyled = styled.input`
+  color: ${Tokens.Colors.Darkmode.Text.Primary};
+`
