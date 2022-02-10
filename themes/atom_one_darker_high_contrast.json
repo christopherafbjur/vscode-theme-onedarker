@@ -202,6 +202,11 @@
       "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
     {
+      "name": "SPECIAL: JS other nested property",
+      "scope": ["variable.other.object.ts"],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
       "name": "SPECIAL: JS Support variables",
       "scope": ["support.variable.property.js"],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
@@ -213,10 +218,7 @@
     },
     {
       "name": "SPECIAL: JS other property",
-      "scope": [
-        "source.js variable.other.property",
-        "source.js variable.other.object.property"
-      ],
+      "scope": ["source.js variable.other.object.property"],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {
@@ -275,10 +277,7 @@
     },
     {
       "name": "SPECIAL: Variable/object",
-      "scope": [
-        "variable.other.object.js",
-        "meta.var.expr.js meta.function-call.js variable.other.object.js"
-      ],
+      "scope": ["variable.other.object.js"],
       "settings": { "fontStyle": "normal", "foreground": "#FFBC3E" }
     },
     {
